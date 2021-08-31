@@ -1,0 +1,15 @@
+.container {
+    padding: 10px;
+}
+
+.input {
+    height: 15px;
+    width: 35vw;
+    display: block;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+}
+
+/* .btn {
+    
+} */
