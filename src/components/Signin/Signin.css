@@ -1,15 +1,5 @@
-.container {
-    padding: 10px;
+.btn {
+    background-color: #800080ff;
+    color: #fff;
+    border-color: #800080ff;
 }
-
-.input {
-    height: 15px;
-    width: 35vw;
-    display: block;
-    padding: 15px 30px;
-    margin-bottom: 10px;
-}
-
-/* .btn {
-    
-} */

@@ -1,9 +1,10 @@
 import './Signin.css';
+import 'tachyons';
 
 function Signin() {
 
     return (
-        <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
+        <article className="br3 ba b--black-10 mv4 w-100 w-55-m w-30-l mw6 shadow-5 center">
             <main className="pa4 black-80">
                 <div className="measure">
                     <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
@@ -29,16 +30,16 @@ function Signin() {
                             />
                         </div>
                     </fieldset>
-                    <div className="">
+                    <div className="mt3">
                         <input
                         // onClick={this.onSubmitSignIn}
-                        className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
+                        className="btn b ph3 pv2 input-reset w-100 ba pointer f6 dib"
                         type="submit"
-                        value="Sign in"
+                        value="Sign In"
                         />
                     </div>
                     <div className="lh-copy mt3">
-                        <p className="f6 link dim black db pointer">Register</p>
+                        <p className="f6 link dim black db pointer tr">Forgot Password?</p>
                         {/* <p  onClick={() => onRouteChange('register')} className="f6 link dim black db pointer">Register</p> */}
                     </div>
                 </div>
